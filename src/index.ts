@@ -8,14 +8,17 @@ const app = new Hono<{
   }
 }>()
 
-//fetch used for extracting env variables
-export default {
-  async fetch(request: RequestHeader, env: any,ctx: ExecutionContext){
-    const auth = betterInit(env);
-    app.on(["POST", "GET"], "/api/auth/*", (c) => auth.handler(c.req.raw));
-  return app.fetch(request, env, ctx);
-  }
-}
+
+app.on(["POST", "GET"], "/api/auth/*", async(c) => {
+  const auth = betterInit(c.env);
+  return auth.handler(c.req.raw);
+});
+
+app.get('/', (c) => {
+  return c.text('Hello Hono!')
+})
+
+export default app
 
 
 

@@ -252,27 +252,6 @@ npm run deploy
 ```
 This command will build your project and deploy it to your Cloudflare account. Ensure you have configured your `wrangler.jsonc` file with your Cloudflare account ID and project name.
 
-```
-## Project Structure
-```
-.
-
-├── src/
-│   ├── lib/
-
-│   │   └── auth.ts          # better-auth initialization and configuration
-│   └── index.ts             # Main Hono application entry point
-
-├── prisma/
-│   └── schema.prisma        # Prisma database schema definition
-
-├── package.json             # Project dependencies and scripts
-├── package-lock.json        # Locked dependency versions
-
-├── tsconfig.json            # TypeScript compiler configuration
-└── wrangler.jsonc           # Cloudflare Workers configuration
-
-
 ## Contributing
 Contributions are welcome! If you have suggestions, bug reports, or want to improve the codebase, please open an issue or submit a pull request.
 

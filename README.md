@@ -221,7 +221,7 @@ Also, create a `wrangler.jsonc` file in the root of your project:
     "nodejs_compat"
   ],
   "vars": {
-    "DATABASE_URL":"prisma://accelerate.prisma-data.net/?api_key=nasdnfdsajfhfads", #prisma accelerate url of your database
+    "DATABASE_URL":"prisma://accelerate.prisma-data.net/?api_key=nasdnfdsajfhfads", #prisma accelerate url of your db
     "BETTER_AUTH_SECRET":"" , #generate a secret from Better Auth
     "BETTER_AUTH_URL":"http:localhost:3000" #Base url of your app
   },

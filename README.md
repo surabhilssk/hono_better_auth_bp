@@ -2,7 +2,7 @@
 
 A comprehensive boilerplate for building serverless APIs with Hono.js, `better-auth` for authentication, Prisma ORM with Accelerate, and deployed on Cloudflare Workers. This project provides a robust foundation for quickly spinning up secure and scalable backend services.
 
-![GitHub Stars](https://img.shields.io/github/stars/surabhilssk/hono_better_auth_bp?style=social) ![Build Status](https://github.com/surabhilssk/hono_better_auth_bp/workflows/CI/badge.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![GitHub Stars](https://img.shields.io/github/stars/surabhilssk/hono_better_auth_bp?style=social) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Table of Contents
 
